@@ -1,22 +1,22 @@
 export class Node {
     constructor (){
-        const val = null
-        const nextNode = null;
+        this._val = null
+        this._next = null;
     }
 
-    get getVal(){
-        return this.val;
+    get val(){
+        return this._val;
     }
 
-    get getNext(){
-        return this.nextNode;
+    get next(){
+        return this._next;
     }
 
-    set setVal(newVal){
-        this.val = newVal;
+    set val(newVal){
+        this._val = newVal;
     }
 
-    set setNext(newnext){
-        this.nextNode = newnext;
+    set next(newnext){
+        this._next = newnext;
     }
 }
